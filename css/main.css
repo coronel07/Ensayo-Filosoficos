@@ -1,0 +1,185 @@
+/* Estilo para el cuerpo */
+body {
+    background-color: rgb(20, 27, 31) !important;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Textos */
+.margin {
+    margin-bottom: 30px;
+}
+.pindex {
+    font-size: 25px;
+    margin: 40px;
+}
+.paboutme {
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    color: gold;
+    margin: 5px;
+}
+h2 {
+    margin: 10px;
+    color: rgb(88, 164, 235);
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: rgb(20, 27, 31) !important;
+    font-family: 'Taviraj';
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.navbar-collapse {
+    justify-content: center;
+}
+.container-fluid {
+    height: 60px;
+}
+.close {
+    justify-content: right !important;
+}
+.offcanvas {
+    background-color: rgb(21, 27, 31) !important;
+}
+
+/* Estilo de las tarjetas */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Diseño de las filas de las tarjetas */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards-container .card-wrapper {
+    flex: 1 1 calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+.cards-container .card-wrapper:nth-child(4),
+.cards-container .card-wrapper:nth-child(5) {
+    flex: 1 1 calc(50% - 20px);
+}
+
+/* Espaciado entre filas */
+@media (max-width: 768px) {
+    .cards-container .card-wrapper {
+        flex: 1 1 100%;
+    }
+}
+
+/* IMG INDEX */
+.img-index {
+    max-height: 600px;
+    border-radius: 20px;
+    border-color: black;
+}
+
+/* Navbar-IMG/TXT */
+.red-icons {
+    right: 10px;
+}
+.img-right {
+    position: fixed;
+}
+.text-nav {
+    font-family: 'Taviraj';
+    font-size: 22px;
+}
+
+/* Body Color */
+.color {
+    background-color: rgb(21, 27, 31);
+}
+
+/* Formulario */
+.form-padding {
+    padding: 25px;
+    margin-top: 50px;
+    width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+/* Carousel */
+.h2-text {
+    justify-content: center !important;
+    text-align: center !important;
+    margin-top: 80px;
+    display: flex !important;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 5px;
+}
+.carousel-indicators {
+    display: none !important;
+}
+.carousel-caption {
+    color: white !important;
+    padding: 4px !important;
+    margin-bottom: -20px;
+    opacity: 95% !important;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+.carousel-padding {
+    margin-top: 70px;
+    justify-content: center;
+    padding: 10px;
+    height: auto;
+    max-width: 1000px;
+}
+.imgcarousel {
+    max-height: 450px;
+    max-width: 1000px;
+}
+.bg-body {
+    background-color: rgb(21, 27, 31) !important;
+}
+
+/* Responsivo para diferentes dispositivos */
+@media (max-width: 991px) {
+    .text-nav {
+        left: 80px;
+    }
+}
+@media (max-width: 425px) {
+    .img-index {
+        max-height: 400px;
+    }
+}
+@media (max-width: 375px) {
+    .red-icons {
+        display: none !important;
+    }
+    .text-nav {
+        left: 100px;
+    }
+}
+@media (max-width: 768px) {
+    .carousel-padding {
+        margin-top: 50px;
+        max-height: 600px;
+        max-width: 600px;
+    }
+    .form-padding {
+        margin-top: 50px;
+        max-height: 600px;
+        max-width: 600px;
+        width: 300px;
+        height: 340px;
+    }
+    .imgcarousel {
+        max-height: 250px;
+        max-width: 1000px;
+    }
+}
