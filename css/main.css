@@ -1,10 +1,7 @@
-/* Estilo para el cuerpo */
 body {
-    background-color: rgb(20, 27, 31) !important;
-    font-family: 'Roboto Mono', monospace;
+    background-color: #e8e8e8 !important;
 }
 
-/* Textos */
 .margin {
     margin-bottom: 30px;
 }
@@ -12,25 +9,9 @@ body {
     font-size: 25px;
     margin: 40px;
 }
-.paboutme {
-    font-size: 25px;
-    margin: 10px;
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-}
-h1 {
-    color: gold;
-    margin: 5px;
-}
-h2 {
-    margin: 10px;
-    color: rgb(88, 164, 235);
-}
 
-/* Estilo para la barra de navegación */
 .navbar {
-    background-color: rgb(20, 27, 31) !important;
-    font-family: 'Taviraj';
+    background-color: #545454 !important;
     font-size: 22px;
     margin-bottom: 20px;
 }
@@ -44,16 +25,14 @@ h2 {
     justify-content: right !important;
 }
 .offcanvas {
-    background-color: rgb(21, 27, 31) !important;
+    background-color: #545454 !important;
 }
 
-/* Estilo de las tarjetas */
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
-/* Diseño de las filas de las tarjetas */
 .cards-container {
     display: flex;
     flex-wrap: wrap;
@@ -68,21 +47,17 @@ h2 {
     flex: 1 1 calc(50% - 20px);
 }
 
-/* Espaciado entre filas */
 @media (max-width: 768px) {
     .cards-container .card-wrapper {
         flex: 1 1 100%;
     }
 }
-
-/* IMG INDEX */
 .img-index {
     max-height: 600px;
     border-radius: 20px;
-    border-color: black;
+    border-color: #545454;
 }
 
-/* Navbar-IMG/TXT */
 .red-icons {
     right: 10px;
 }
@@ -90,16 +65,37 @@ h2 {
     position: fixed;
 }
 .text-nav {
-    font-family: 'Taviraj';
     font-size: 22px;
 }
 
-/* Body Color */
 .color {
-    background-color: rgb(21, 27, 31);
+    background-color: #545454;
 }
 
-/* Formulario */
+.boton {
+    background-color: #545454;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #e8e8e8; 
+    padding: 2px;
+}
+
+.boton:hover {
+    opacity: 0.8; 
+}
+
+.btn-primary {
+    background-color: #545454;
+    border-color: #545454;
+}
+
+.btn-primary:hover {
+    opacity: 0.8; 
+}
+
 .form-padding {
     padding: 25px;
     margin-top: 50px;
@@ -110,25 +106,22 @@ h2 {
     border-radius: 20px;
 }
 
-/* Carousel */
 .h2-text {
     justify-content: center !important;
     text-align: center !important;
     margin-top: 80px;
     display: flex !important;
-    color: white;
-    font-family: 'Roboto Mono', monospace;
+    color: #545454;
     font-size: 5px;
 }
 .carousel-indicators {
     display: none !important;
 }
 .carousel-caption {
-    color: white !important;
+    color: #e8e8e8!important;
     padding: 4px !important;
     margin-bottom: -20px;
     opacity: 95% !important;
-    font-family: 'Roboto Mono', monospace;
     font-size: 15px;
 }
 .carousel-padding {
@@ -146,7 +139,6 @@ h2 {
     background-color: rgb(21, 27, 31) !important;
 }
 
-/* Responsivo para diferentes dispositivos */
 @media (max-width: 991px) {
     .text-nav {
         left: 80px;
@@ -182,4 +174,5 @@ h2 {
         max-height: 250px;
         max-width: 1000px;
     }
+    
 }

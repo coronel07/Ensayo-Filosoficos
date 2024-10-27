@@ -1,1 +1,0 @@
-# WebEjemploEnsayoFilosofico
